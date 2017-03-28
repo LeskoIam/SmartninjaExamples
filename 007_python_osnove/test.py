@@ -81,11 +81,19 @@ while n <= 10:
 print "Konec kode"
 
 
-#
-skrito_stevilo = 100
+# Se en primer while zanke
+skrito_stevilo = 5
 pogoj = True
 while pogoj:
     n = int(raw_input("stevilka: "))  # s funkcijo int spremenimo string v integer (ce je to mogoce, drugace dobimo error)
-    if n == 5:
+    if n == skrito_stevilo:
         pogoj = False
+
+
+# Enako kot prejsnja, le da za izhod iz zanke uporabimo break
+skrito_stevilo = 5
+while True:
+    n = int(raw_input("stevilka: "))  # s funkcijo int spremenimo string v integer (ce je to mogoce, drugace dobimo error)
+    if n == skrito_stevilo:
+        break
 
