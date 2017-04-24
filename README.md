@@ -31,3 +31,8 @@ Examples from Smartninja course, third time.
 * primer uporabe funkcije - lotto
 * import funkcije (, spremenljivke, objekta) iz druge datoteke - matematika, test_sestevanja
 * testianje
+### 011 Objektno Orientirano Programiranje
+* definicija class-a
+* dedovanje
+* primeri uporabe class-ov in objektov
+* kako ne uporabljati class-ov in objektov
