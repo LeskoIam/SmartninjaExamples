@@ -53,7 +53,7 @@ class Blok(Hisa):
         super(Blok, self).__init__(ime, st_oken, st_vrat)
 
     def pokazi_st_dvigal(self):  # Metoda
-        print "Blok '{}' ima {} streh".format(self.ime, self.st_dvigal())
+        print "Blok '{}' ima {} streh".format(self.ime, self.st_dvigal)
 
 bl = Blok("zelena jama", 160, 70, 2)
 bl.pokazi_st_dvigal()
