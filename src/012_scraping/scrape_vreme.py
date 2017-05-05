@@ -22,17 +22,6 @@ class ArsoVremePostaja(object):
         self.v_sunki = unicode(v_sunki)
         self.tlak = unicode(tlak)
 
-    def __str__(self):
-        return u"""postaja: {s.postaja}
-        vreme: {s.vreme}
-        temperatura: {s.temp}
-        vlaga: {s.vlaga}
-        v_smer: {s.v_smer}
-        v_hitrost: {s.v_hitrost}
-        v_sunki: {s.v_sunki}
-        tlak: {s.tlak}
-        """.format(s=self)
-
 
 def main(url):
     html = requests.get(url).text
