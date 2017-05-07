@@ -37,7 +37,7 @@ Examples from Smartninja course, third time.
 * primeri uporabe class-ov in objektov
 * kako ne uporabljati class-ov in objektov
 ### 012 Scraping in parsanje
-* parsanje internetne strani [test012.py](src/012_sraping/test012.py)
+* parsanje internetne strani [test012.py](/src/012_scraping/test012.py)
   * odpiranje strani s Python-om (requests)
   * parsanje HTML-ja z BeautifulSoup
   * sledenje povezavam (kako pridemo do href linka (a))
