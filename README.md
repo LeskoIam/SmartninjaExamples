@@ -13,7 +13,7 @@ Examples from Smartninja course, third time.
 * while zanka
 * neskončna zanka
 * break
-### 008 [Pogoji in zanke](/src/008_pogoji_in_zanke)
+### [008 Pogoji in zanke](/src/008_pogoji_in_zanke)
 [test008.py](/src/008_pogoji_in_zanke/test008.py)
 * for zanka
 * logične operacije (and, or, not)
@@ -35,12 +35,12 @@ Examples from Smartninja course, third time.
 * import funkcije (, spremenljivke, objekta) iz druge datoteke - [matematika.py](/src/010_funkcije_testiranje/matematika.py), [test_sestevanja.py](/src/010_funkcije_testiranje/test_sestevanja.py)
 * testianje - [matematika.py](/src/010_funkcije_testiranje/matematika.py), [test_sestevanja.py](/src/010_funkcije_testiranje/test_sestevanja.py)
 ### [011 Objektno Orientirano Programiranje](/src/011_OOP)
-[test011.py]((/src/011_OOP/test011.py))
+[test011.py](/src/011_OOP/test011.py))
 * definicija class-a
 * dedovanje
 * primeri uporabe class-ov in objektov
 * kako ne uporabljati class-ov in objektov
-### 012 Scraping in parsanje
+### [012 Scraping in parsanje](/src/012_scraping)
 * parsanje internetne strani - [test012.py](/src/012_scraping/test012.py)
 * demonstracija parsanja arso vremena - [acrape_vreme.py](/src/012_sraping/acrape_vreme.py)
 * demonstracija uporabe threadov za hitrejše scrapanje - [scrape_threading_demo.py](/src/012_sraping/scrape_threading_demo.py)

@@ -1,5 +1,5 @@
 ### 011 Objektno Orientirano Programiranje
-[test011.py]((/src/011_OOP/test011.py))
+[test011.py](/src/011_OOP/test011.py))
 * definicija class-a
   * sintaksa
   * \_\_init__ metoda
