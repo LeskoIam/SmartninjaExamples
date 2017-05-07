@@ -1,5 +1,4 @@
 import requests
-from pprint import pprint
 from BeautifulSoup import BeautifulSoup
 
 __author__ = 'mpolensek'
@@ -22,8 +21,6 @@ class ArsoVremePostaja(object):
         self.v_sunki = unicode(v_sunki)
         self.tlak = unicode(tlak)
 
-    def temp_F(self):
-        return float(self.temp)*1.45
 
 def main(url):
     html = requests.get(url).text
@@ -64,4 +61,3 @@ if __name__ == '__main__':
         print postaja.v_hitrost
         print postaja.v_sunki
         print postaja.tlak
-        print postaja.temp_F()
