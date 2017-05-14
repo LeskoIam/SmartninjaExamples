@@ -22,7 +22,7 @@ def check_guess():
 
     tkMessageBox.showinfo("Result", result_text)
 
-# GUI
+# GUI - glavno okno
 window = Tkinter.Tk()
 
 # Greeting text
@@ -36,7 +36,7 @@ secret = random.randint(1, 100)
 guess = Tkinter.Entry(window)
 guess.pack()
 
-# submit button
+# Submit button
 submit = Tkinter.Button(window, text="Submit", command=check_guess)  # check_guess, not check_guess()
 submit.pack()
 
