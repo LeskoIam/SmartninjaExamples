@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+            <meta charset="UTF-8">
+            <title>SmartNinja basic Jinja template</title>
+    </head>
+
+    <body>
+            <form action="/rezultat" method="post">
+                    <input name="vnos"> <br \>
+
+                    <input name="sporocilo">
+
+                    <button type="submit">OK</button>
+            </form>
+
+    <div>
+        {% if messages %}
+            {% for message in messages%}
+                {{ message }}
+            {% endfor %}
+        {% endif %}
+    </div>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Izbrisi</title>
+</head>
+<body>
+
+<h1>Ali si siguren da zelis izbrisati sporocilo {{ sporocilo.sporocilo }}?</h1>
+
+<form action="/sporocilo/{{ sporocilo.key.id() }}/delete" method="post">
+    <button type="submit">IZBRISI</button>
+</form>
+
+</body>
+</html>
