@@ -1,5 +1,9 @@
-# Smartninja-examples-3
-Examples from Smartninja course, third time.
+# Smartninja-examples
+Examples from Smartninja course.
+
+### [001 HTML in osnove spleta](/src/001_HTML_osnove_spleta/README.md)
+### [002_CSS](/src/002_CSS/README.md)
+### [003_CSS_pozicioniranje](/src/003_CSS_pozicioniranje/README.md)
 
 ### [007 Osnove Python (2.7) programskega jezika](/src/007_python_osnove)
 [test007.py](/src/007_python_osnove/test007.py)
