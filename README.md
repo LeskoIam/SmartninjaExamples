@@ -4,7 +4,9 @@ Examples from Smartninja course.
 ### [001 HTML in osnove spleta](/src/001_HTML_osnove_spleta)
 ### [002 CSS](/src/002_CSS)
 ### [003 CSS pozicioniranje](/src/003_CSS_pozicioniranje)
-
+### [004 GIT](/src/004_GIT)
+### [005 WIP](www.google.com)
+### [006 Pogoji, zanke](/src/006_Pogoji_zanke)
 ### [007 Osnove Python (2.7) programskega jezika](/src/007_Python_osnove)
 [test007.py](/src/007_Python_osnove/test007.py)
 * spremenljivke
@@ -51,3 +53,12 @@ Examples from Smartninja course.
 ### [013 GUI](/src/013_GUI)
 * [tkinter](/src/013_GUI/test013.py)
 * [primer procesa, ki poteka dolgo in s tem blokira GUI](/src/013_GUI/test.py)
+### [014 GAE](/src/014_GAE)
+### [015 Jinja](/src/015_Jinja)
+### [016 POST](/src/016_POST)
+### [017 Ponovitev GAE](/src/017_Ponovitev_GAE)
+### [018 Datastore](/src/018_Datastore)
+### [019 Delete, edit](/src/019_Delete_edit)
+### [020 Ponovitev](/src/020_Ponovitev)
+### [021 - Avtentikacija, varnost](/src/021_Avtentikacija_varnost)
+### [022 - Json, API](/src/022_Json_API)
