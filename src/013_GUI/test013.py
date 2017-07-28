@@ -1,7 +1,6 @@
 import Tkinter
 import random
 import tkMessageBox
-import time
 
 __author__ = 'mpolensek'
 # Documentation is like sex.
@@ -9,9 +8,8 @@ __author__ = 'mpolensek'
 # When it's bad, it's better than nothing.
 # When it lies to you, it may be a while before you realize something's wrong.
 
-# check guess
+
 def check_guess():
-    time.sleep(10)
     if int(guess.get()) == secret:
         result_text = "CORRECT!"
     elif int(guess.get()) > secret:
@@ -21,22 +19,23 @@ def check_guess():
 
     tkMessageBox.showinfo("Result", result_text)
 
-
+# GUI
 window = Tkinter.Tk()
 
-# greeting text
+# Greeting text
 greeting = Tkinter.Label(window, text="Guess the secret number!")
 greeting.pack()
 
-# Select number to guess
+# Select random number
 secret = random.randint(1, 100)
 
-# guess entry field
+# Guess entry field
 guess = Tkinter.Entry(window)
 guess.pack()
 
-# submit button
+# Submit button
 submit = Tkinter.Button(window, text="Submit", command=check_guess)  # check_guess, not check_guess()
 submit.pack()
+
 
 window.mainloop()

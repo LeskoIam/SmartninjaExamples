@@ -44,3 +44,6 @@ Examples from Smartninja course, third time.
 * parsanje internetne strani - [test012.py](/src/012_scraping/test012.py)
 * demonstracija parsanja arso vremena - [scrape_vreme.py](/src/012_scraping/scrape_vreme.py)
 * demonstracija uporabe threadov za hitrejše scrapanje - [scrape_threading_demo.py](/src/012_scraping/scrape_threading_demo.py)
+### [013 GUI](/src/013_GUI)
+* [tkinter](/src/013_GUI/test013.py)
+* [primer procesa, ki poteka dolgo in s tem blokira GUI](/src/013_GUI/test.py)
