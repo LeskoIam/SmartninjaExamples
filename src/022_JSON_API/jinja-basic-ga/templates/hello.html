@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SmartNinja basic Jinja template</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h1>Hello, SmartNinja! JSON</h1>
+    <ol>
+    {% for person in seznam %}
+        <li>{{ person.first_name }} {{ person.last_name }} {{ person.country }} </li>
+    {% endfor %}
+    </ol>
+</body>
+</html>

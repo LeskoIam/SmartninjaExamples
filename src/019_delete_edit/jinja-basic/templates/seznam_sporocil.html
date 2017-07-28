@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+            <meta charset="UTF-8">
+            <title>Seznam sporocil</title>
+    </head>
+
+    <body>
+            <h1>Seznam sporočil</h1>
+
+            <ul>
+            {% for item in seznam %}
+                {% if item.izbrisan == False %}
+                    <li><a href="sporocilo/{{ item.key.id() }}">{{ item.vnos }}</a>
+
+                        {% if item.nastanek != None %}
+                            {{ item.nastanek }}
+                        {% endif %}
+                        </li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+    </body>
+</html>

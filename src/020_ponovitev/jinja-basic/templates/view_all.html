@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block vsebina %}
+
+    <h1>View All</h1>
+    <ul>
+    {% for film in seznam_filmov %}
+        <li><a href="film/{{ film.key.id() }}/edit">{{ film.naslov_filma }}</a></li>
+    {% endfor %}
+    </ul>
+
+{% endblock vsebina %}

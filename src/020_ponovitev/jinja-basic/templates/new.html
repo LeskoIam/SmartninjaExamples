@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block vsebina %}
+
+    <h1>Dodaj nov film</h1>
+    <form action="/new" method="post">
+
+        <div>
+            Naslov: <input name="naslov" required>
+        </div>
+        <div>
+            Imdb link: <input name="imdb_link">
+        </div>
+        <div>
+            Edited by: <input name="edited_by" required>
+        </div>
+        <div>
+        Ocena <br />
+            <input type="radio" name="ocena" value="1">1<br />
+            <input type="radio" name="ocena" value="2">2<br />
+            <input type="radio" name="ocena" value="3" checked>3<br />
+            <input type="radio" name="ocena" value="4">4<br />
+            <input type="radio" name="ocena" value="5">5<br />
+        </div>
+        <div>
+            Opis: <br />
+            <textarea name="opis" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <button type="submit">Shrani</button>
+        </div>
+
+    </form>
+
+{% endblock vsebina %}

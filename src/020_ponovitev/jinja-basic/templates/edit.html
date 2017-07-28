@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block vsebina %}
+
+    <h1>Popravi film</h1>
+    <form action="/edit" method="post">
+
+        <div>
+            Naslov: <input name="naslov" value="{{ film_data.naslov_filma }}" required>
+        </div>
+        <div>
+            Imdb link: <input name="imdb_link" value="{{ film_data.imdb_link }}">
+        </div>
+        <div>
+            Edited by: <input name="edited_by" value="{{ film_data.edited_by }}" required>
+        </div>
+        <div>
+        Ocena <br />
+            {% for x in range(1, 6) %}
+                {% if film_data.ocena == x %}
+                    <input type="radio" name="ocena" value="{{ x }}" checked>{{ x }}<br />
+                {% else %}
+                    <input type="radio" name="ocena" value="{{ x }}">{{ x }}<br />
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div>
+            Opis: <br />
+            <textarea name="opis" rows="4" cols="50">{{ film_data.opis }}</textarea>
+        </div>
+        <div>
+            <button type="submit">Shrani</button>
+        </div>
+
+    </form>
+
+{% endblock vsebina %}
