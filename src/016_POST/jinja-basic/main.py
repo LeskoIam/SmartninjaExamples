@@ -1,11 +1,6 @@
-#!/usr/bin/env python
 import os
 import jinja2
 import webapp2
-import datetime
-
-#                             'jinja-basic\templates'
-#                                'jinja-basic',          'templates'
 
 template_dir = os.path.join(os.path.dirname(__file__), "templates")
 jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(template_dir), autoescape=False)
@@ -38,12 +33,13 @@ class MainHandler(BaseHandler):
     def post(self):
         podatek = self.request.get("vnos")
         iskana_crka = self.request.get("iskana_crka")
-        if len(iskana_crka) > 1 or len(iskana_crka) < 1:
-            self.write("Tocno en znak in ne {} znakov".format(len(iskana_crka)))
+        len_iskana_crka = len(iskana_crka)
+        if len_iskana_crka > 1 or len_iskana_crka < 1:
+            self.write("Tocno en znak in ne {} znakov".format(len_iskana_crka))
             return
 
         st_crk = podatek.count(iskana_crka)
-        self.write(st_crk)
+        self.write("Stevilo '{0}' v '{1}' je {2}".format(iskana_crka, podatek, st_crk))
 
 
 app = webapp2.WSGIApplication([

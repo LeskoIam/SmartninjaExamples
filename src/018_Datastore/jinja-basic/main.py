@@ -1,13 +1,8 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
-
 import os
 import jinja2
 import webapp2
 from models import Sporocilo
-
-#                             'jinja-basic\templates'
-#                                'jinja-basic',          'templates'
 
 template_dir = os.path.join(os.path.dirname(__file__), "templates")
 jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(template_dir), autoescape=False)
@@ -32,7 +27,6 @@ class BaseHandler(webapp2.RequestHandler):
         return self.response.out.write(template.render(params))
 
 
-
 class MainHandler(BaseHandler):
     def get(self):
         return self.render_template("hello.html")
@@ -40,22 +34,21 @@ class MainHandler(BaseHandler):
 
 class RezultatHandler(BaseHandler):
     def post(self):
-        rezultat = self.request.get("vnos")
-        text = self.request.get("sporocilo")
+        ime = self.request.get("ime")
+        vsebina = self.request.get("sporocilo")
 
-        sporocilo = Sporocilo(vnos=rezultat, sporocilo=text)
+        sporocilo = Sporocilo(ime=ime, sporocilo=vsebina)
         sporocilo.put()
 
-        rezultat = "Vnesel si: " + rezultat
+        rezultat = "Tvoje ime je: {}".format(ime)
+        rezultat += "<br />Sporocilo: {}".format(vsebina)
         return self.write(rezultat)
 
 
 class SeznamSporocilHandler(BaseHandler):
     def get(self):
-
         seznam = Sporocilo.query().fetch()
         params = {"seznam": seznam}
-
         return self.render_template("seznam_sporocil.html", params=params)
 
 

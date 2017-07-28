@@ -8,6 +8,6 @@ __author__ = 'mpolensek'
 
 
 class Sporocilo(ndb.Model):
-    vnos = ndb.StringProperty()
+    ime = ndb.StringProperty()
     sporocilo = ndb.StringProperty()
     nastanek = ndb.DateTimeProperty(auto_now_add=True)

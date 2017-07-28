@@ -8,11 +8,13 @@
 </head>
 <body>
     <h1>Hello, {{ ime }}</h1>
-
+    <!-- Kadar uporabljamo logicne stavke, zanke,... (if, while, for) moramo uporabljati zaviti oklepaj ter procent '{% ... %}'.
+         In pa .... -->
     {% if sporocilo %}
         <p>{{ sporocilo }}</p>
     {% else %}
         <p>Ni novega sporocila</p>
+    <!-- ... obvezno jih moramo zakljuciti (edif, edfor, endwhile). -->
     {% endif %}
 
 </body>

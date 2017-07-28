@@ -1,5 +1,5 @@
 # 007 Osnove Python (2.7) programskega jezika
-[test007.py](/src/007_python_osnove/test007.py)
+[test007.py](/src/007_Python_osnove/test007.py)
 * spremenljivke
 * prikaz na zaslonu (print)
 * logične vrednosti (boolean)

@@ -1,13 +1,7 @@
-# -*- coding: utf-8 -*-
-#!/usr/bin/env python
-
+# coding=utf-8
 import os
 import jinja2
 import webapp2
-import datetime
-
-#                             'jinja-basic\templates'
-#                                'jinja-basic',          'templates'
 
 template_dir = os.path.join(os.path.dirname(__file__), "templates")
 jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(template_dir), autoescape=False)
@@ -37,15 +31,13 @@ class MainHandler(BaseHandler):
     def get(self):
         self.render_template("o_meni.html")
 
+
 class GaleryHandler(BaseHandler):
 
     def get(self):
-        self.render_template("galerija.html", params={"sumniki": u"potreščž"})
+        self.render_template("galerija.html", params={"sumniki": u"potreščež"})
 
 app = webapp2.WSGIApplication([
     webapp2.Route('/', MainHandler),
     webapp2.Route('/galerija', GaleryHandler),
 ], debug=True)
-
-
-0xAF
