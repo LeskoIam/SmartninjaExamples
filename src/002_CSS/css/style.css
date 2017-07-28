@@ -1,0 +1,28 @@
+/* class-e izbiramo s "." (pika) in imenom, ki smo ga določili v html tag-u */
+.lokacija
+{
+    color: red;
+}
+
+.age
+{
+    color:blue;
+}
+
+/* id-je izbiramo z "#" (lojtra, hash,...) in imenom, ki smo ga določili v html tag-u */
+#hobby
+{
+    color:green;
+}
+
+#slika
+{
+    border: 7px black dotted;
+    padding: 5px;
+}
+
+/* ko z miško pridemo nad element z id-jem slika se meja spremeni (iz zgoraj določene pikčaste) v neprekinjeno črto */
+#slika:hover
+{
+    border: 7px black solid;
+}

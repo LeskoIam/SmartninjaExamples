@@ -1,3 +1,0 @@
-test string
-nova vrstica
-pred mano ni nove vrstice
