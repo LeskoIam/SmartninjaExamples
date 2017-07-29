@@ -1,12 +1,20 @@
 # Smartninja-examples
-Examples from Smartninja course.
+Primeri iz [SmartNinja Web Development 1](https://www.smartninja.si/course/5759514938703872) tečaja.
+
+Spodaj lahko vidiš celo snov tečaja, urejeno po enakem vrstnem redu, kot si sledijo posamezna predavanja. Vedno poglej tudi v same datoteke
+s kodo (.html, .css, .py, ...), v njih je snov (skoraj povsod) še dodatno komentirana.
+
+![WIP](http://cliffordgarstang.com/wp-content/uploads/2013/01/Work_in_progress.png)
 
 ### [001 HTML in osnove spleta](/src/001_HTML_osnove_spleta)
+[index001.html](/src/001_HTML_osnove_spleta/index001.html)
+* pravilna struktura strani
+* osnovni tag-i
 ### [002 CSS](/src/002_CSS)
 ### [003 CSS pozicioniranje](/src/003_CSS_pozicioniranje)
 ### [004 GIT](/src/004_GIT)
 ### [005 WIP](www.google.com)
-### [006 Pogoji, zanke](/src/006_Pogoji_zanke)
+### [006 Ponovitev frontenda](/src/006_Ponovitev_frontenda)
 ### [007 Osnove Python (2.7) programskega jezika](/src/007_Python_osnove)
 [test007.py](/src/007_Python_osnove/test007.py)
 * spremenljivke

@@ -9,7 +9,7 @@
     </body>
 </html>
 ```
-* HTML tag-i
+* osnovni tag-i
     * [meta](https://www.w3schools.com/tags/tag_meta.asp)
     * [title](https://www.w3schools.com/tags/tag_title.asp)
     * [h_](https://www.w3schools.com/tags/tag_hn.asp)

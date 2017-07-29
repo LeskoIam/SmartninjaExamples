@@ -1,0 +1,12 @@
+https://np.reddit.com/r/math/comments/3tn1xq/what_intuitively_obvious_mathematical_statements/cx7np4t/
+
+Take your message, treat it as a number and multiply it by a bunch of primes.
+Send it to me. I will then multiply by a bunch of primes too.
+I send it back to you. You then divide by all of your primes.
+Send it back to me. I divide by all of my primes and get the original message.
+It may be easier to think of the message as a box and the primes as locks.
+You want to send a box to me without Eve getting at what's inside. So you put a lock on it and send it to me.
+Now neither Eve nor I can open it because it's locked. I add my own lock because fuck you and your stupid lock. I send it back to you.
+Now you can't open it and it's locked so it's worthless, therefor you take your precious lock back and send the now worthless piece of shit back to me.
+Eve is still like "WTF?" All she has seen so far is the same box going back and forth with locks she can't open.
+So now I get the box with my lock on it and I take my lock off. Now the box is unlocked and I can take your shit.
