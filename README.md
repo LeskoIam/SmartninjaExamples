@@ -1,9 +1,9 @@
 # Smartninja-examples
 Primeri iz [SmartNinja Web Development 1](https://www.smartninja.si/course/5759514938703872) tečaja.
 
-![WIP](http://cliffordgarstang.com/wp-content/uploads/2013/01/Work_in_progress.png) Repo še ni v končnem stanju
-(kdaj pa katerakoli koda je?) in se stalno dopolnjuje in izpopolnjuje. Zato je najbolje da zgoraj klikneš **Watch** gumb, da boš vedno
-obveščen o spremembah.
+![WIP](http://cliffordgarstang.com/wp-content/uploads/2013/01/Work_in_progress.png) 
+Repo še ni v končnem stanju (kdaj pa katerakoli koda je?) in se stalno dopolnjuje in izpopolnjuje. Zato je najbolje da zgoraj klikneš 
+**Watch** gumb, da boš vedno obveščen o spremembah.
 
 Spodaj je cela snov tečaja, urejena po enakem vrstnem redu, kot si sledijo posamezna predavanja.
  
