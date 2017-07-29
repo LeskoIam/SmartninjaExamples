@@ -1,10 +1,14 @@
 # Smartninja-examples
 Primeri iz [SmartNinja Web Development 1](https://www.smartninja.si/course/5759514938703872) tečaja.
 
-Spodaj lahko vidiš celo snov tečaja, urejeno po enakem vrstnem redu, kot si sledijo posamezna predavanja. Vedno poglej tudi v same datoteke
-s kodo (.html, .css, .py, ...), v njih je snov (skoraj povsod) še dodatno komentirana.
+![WIP](http://cliffordgarstang.com/wp-content/uploads/2013/01/Work_in_progress.png) Repo še ni v končnem stanju
+(kdaj pa katerakoli koda je?) in se stalno dopolnjuje in izpopolnjuje. Zato je najbolje da zgoraj klikneš **Watch** gumb, da boš vedno
+obveščen o spremembah.
 
-![WIP](http://cliffordgarstang.com/wp-content/uploads/2013/01/Work_in_progress.png)
+Spodaj je cela snov tečaja, urejena po enakem vrstnem redu, kot si sledijo posamezna predavanja.
+ 
+Vedno poglej tudi v same datoteke
+s kodo (.html, .css, .py, ...), v njih je snov (skoraj povsod) še dodatno komentirana.
 
 ### [001 HTML in osnove spleta](/src/001_HTML_osnove_spleta)
 [index001.html](/src/001_HTML_osnove_spleta/index001.html)
