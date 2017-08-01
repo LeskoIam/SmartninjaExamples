@@ -1,0 +1,3 @@
+If some piece of memory should be reused, turn them to variables (or const variables).
+If some piece of operations should be reused, turn them to functions.
+If they happened together, then turn them to classes.
