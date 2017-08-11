@@ -1,4 +1,4 @@
-### 002 - CSS
+### 002 CSS
 * CSS selectorji
   * [id](https://www.w3schools.com/cssref/sel_id.asp)
   * [class](https://www.w3schools.com/cssref/sel_class.asp)

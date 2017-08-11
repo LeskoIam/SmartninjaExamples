@@ -15,6 +15,10 @@ Spodaj je cela snov tečaja, urejena po enakem vrstnem redu, kot si sledijo posa
 * pravilna struktura strani
 * osnovni tag-i
 ### [002 CSS](/src/002_CSS)
+[test008.py](/src/002_CSS/index002.html)
+* CSS selektorji
+* Inline CSS
+* Vključevanje CSS iz zunanje datoteke
 ### [003 CSS pozicioniranje](/src/003_CSS_pozicioniranje)
 ### [004 GIT](/src/004_GIT)
 ### [005 Bootstrap](/src/005_Bootstrap)

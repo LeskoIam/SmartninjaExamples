@@ -1,0 +1,25 @@
+.prvi 
+{
+    color: red;
+}
+
+
+.drugi
+{
+    color: cyan;
+}
+
+
+.slika
+{
+    border: 6px black dotted;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ko gremo z miško čez sliko se njena obroba spremeni */
+.slika:hover
+{
+    border: 6px black solid;
+}
